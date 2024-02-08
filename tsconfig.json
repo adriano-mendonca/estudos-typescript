@@ -1,6 +1,14 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "strict": true
-  }
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+  // "exclude": ["node_modules"]
 }

@@ -29,7 +29,7 @@
   "editor.bracketPairColorization.enabled": false,
   "emmet.excludeLanguages": ["markdown", "css"],
   "workbench.statusBar.visible": true,
-  "workbench.editor.untitled.hint": "hidden",
   "editor.suggest.showInlineDetails": false,
-  "terminal.integrated.fontSize": 14
+  "terminal.integrated.fontSize": 14,
+  "workbench.editor.empty.hint": "hidden"
 }
