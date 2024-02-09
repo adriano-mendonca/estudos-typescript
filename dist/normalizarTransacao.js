@@ -1,9 +1,10 @@
 import moedaParaNumero from "./moedaParaNumero.js";
+import stringParaData from "./stringParaData.js";
 export default function normalizarTransacao(transacao) {
     return {
         status: transacao.Status,
         id: transacao.ID,
-        data: transacao.Data,
+        data: stringParaData(transacao.Data),
         nome: transacao.Nome,
         pagamento: transacao["Forma de Pagamento"],
         email: transacao.Email,
